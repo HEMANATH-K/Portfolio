@@ -1,0 +1,88 @@
+
+.contact-page {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #f0f0f0 60%, #000000 40%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+
+  padding: 25px 30px;  
+  width: 100%;
+  max-width: 600px;     
+  
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+
+/* Typography */
+.contact-container h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #111;
+}
+
+.contact-container p {
+  font-size: 1.1rem;
+  margin: 4px 0;
+  color: #222;
+}
+
+.contact-container hr {
+  width: 100%;
+  border: none;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+}
+
+.contact-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+
+.online {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  justify-content: center;
+}
+
+.online li {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #111;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 10px 18px;
+  border-radius: 12px;
+  transition: 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.online li:hover {
+  background: #000;
+  color: #fff;
+  transform: translateY(-2px) scale(1.05);
+}
