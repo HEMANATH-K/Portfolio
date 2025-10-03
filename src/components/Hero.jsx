@@ -34,7 +34,10 @@ export default function Hero() {
           <p>
             I specialize in creating beautiful and interactive websites using <strong>React</strong>, <strong>CSS</strong>, and modern development tools. Additionally, I have hands-on experience with <strong>machine learning algorithms</strong> and have built several projects in this domain.
           </p>
-          <button className="hero-button">Download Resume</button>
+          <a href="/Hemanath-K.pdf.pdf" download>
+  <button className="hero-button">Download Resume</button>
+</a>
+
         </div>
       </div>
 
